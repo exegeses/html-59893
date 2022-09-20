@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body{
+    font-family: Roboto;
+    font-weight: 300;
+}
+
+header{
+    height: 120px;
+    background-color: #2C3639;
+}
+    nav{
+        color: #fff;
+    }
+
+main{
+    height: 600px;
+}
+
+footer{
+    height: 160px;
+    background-color: #3F4E4F;
+}
