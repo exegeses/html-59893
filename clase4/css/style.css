@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body{
+    font-family: Roboto;
+    font-weight: 300;
+}
+
+header{
+    height: 120px;
+    background-color: #2C3639;
+    display: flex;
+    justify-content: center; /* centrar en horizontal */
+    align-items: center; /* centar en vertical */
+}
+    nav a{
+        color: #fff;
+        text-decoration: none; /* quitar subrayado */
+        padding: 8px;
+    }
+    nav a:hover{
+        border: 1px solid #fff;
+    }
+
+main{
+    height: 600px;
+}
+
+footer{
+    height: 160px;
+    background-color: #3F4E4F;
+}
