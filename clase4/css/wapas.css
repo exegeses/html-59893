@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Rubik+Dirt&display=swap');
+
+body{
+    font-family: Roboto;
+    font-weight: 300;
+}
+header{
+    font-size: 64px;
+}
+    header span{
+        font-family: 'Rubik Dirt', cursive;
+        font-size: 80px;
+    }
+
+h1{
+    font-weight: 300;
+}
+h2{
+    font-size: 16px;
+}
+
