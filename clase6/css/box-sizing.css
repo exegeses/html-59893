@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+#naranja, #verde{
+    width: 200px;
+    height: 200px;
+}
+
+#naranja{
+    background-color: rgb(250, 146, 91);
+
+    padding: 50px;
+}
+#verde{
+    background-color: rgb(189, 250, 91);
+}

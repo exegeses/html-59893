@@ -5,3 +5,52 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    color: #707070;
+}
+
+/* globales */
+a{
+    text-decoration: none;  /* quita el subrayado */
+}
+
+
+header{
+    width: 1100px;
+    margin: auto; /* centrar la caja */
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    /* centrar en vertical contenido */
+    align-items: center;
+}
+    header a img{
+        width: 60px;
+        vertical-align: middle;
+        margin-right: 16px;
+    }
+    header a{
+        color: #707070;
+        font-weight: 600;
+    }
+    nav a{
+        padding: 12px;
+    }
+
+/* hero-banner */
+
+#hero-banner{
+    height: 500px;
+    background-image: url(../imgs/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -120px;
+}
+
+    #hero-banner div{
+        width: 1100px;
+        margin: auto;
+    }
