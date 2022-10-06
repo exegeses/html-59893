@@ -65,3 +65,26 @@ header{
         width: 400px;
         margin-top: 24px;
     }
+
+/*  main  */
+
+main{
+    width: 1100px;
+    margin: auto;
+}
+
+    #separador{
+        height: 320px;
+        padding-top: 98px;
+        text-align: center;
+    }
+    #separador h2{
+        font-size: 32px;
+        font-weight: 600;
+        color: #FFB968;
+        margin-bottom: 20px;
+    }
+    #separador p{
+        width: 600px;
+        margin: auto;
+    }
