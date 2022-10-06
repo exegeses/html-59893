@@ -17,7 +17,6 @@ a{
     text-decoration: none;  /* quita el subrayado */
 }
 
-
 header{
     width: 1100px;
     margin: auto; /* centrar la caja */
@@ -88,3 +87,28 @@ main{
         width: 600px;
         margin: auto;
     }
+
+/* promos */
+
+    #promos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #promo-1, #promo-2{
+        width: 550px;
+        height: 550px;
+        color: #fff;
+
+        padding: 100px 80px 0px 80px;
+        
+    }
+
+    #promo-1{
+        background-color: #807871;
+    }
+    #promo-2{
+        background-color: #E3B684;
+    }
+
+    #promos h2{ margin-bottom: 30px;}
