@@ -112,3 +112,66 @@ main{
     }
 
     #promos h2{ margin-bottom: 30px;}
+
+/* separador 2 */
+    #separador2{
+        padding: 82px;
+        color: #FFB968;
+        text-align: center;
+    }
+
+/* historia */
+    #historia{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #historia article{
+        width: 339px;
+        background-color: #807871;
+        color: #fff;
+    }
+    #historia h3{
+        padding: 18px 36px 0px 36px;
+    }
+    #historia p{
+        padding: 12px 36px 24px 36px;
+    }
+    #historia article img{
+        width: 339px;
+        height: 301px;
+    }
+
+/* contacto */
+    #contacto{
+        height: 580px;
+        background-image: url(../imgs/hero-3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 -130px;
+        margin-top: 64px;
+        padding-top: 50px;
+    }
+
+    #contacto form{
+        width: 698px;
+        margin: auto;
+        padding: 16px 28px;
+        border-radius: 12px;
+        background-color: rgb(255, 255, 255);
+    }
+    #contacto form input,
+    #contacto form textarea
+    {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #CECECE;
+        border-radius: 6px;
+    }
+    
+
+
+/* footer */
+footer{
+    height: 300px;
+}
