@@ -97,18 +97,18 @@
 
     <section id="contacto">
         
-        <form action="">
+        <form action="contacto.php" method="post">
             <label>
                 Nombre:<br>
-                <input type="text">
+                <input type="text" name="nombre">
             </label>
             <label>
                 Email:<br>
-                <input type="email">
+                <input type="email" name="email">
             </label>
             <label>
                 Comentarios:<br>
-                <textarea></textarea>
+                <textarea name="comentarios"></textarea>
             </label>
             <button>Enviar</button>
         </form>
@@ -116,7 +116,43 @@
     </section>
 
     <footer>
-
+        <section>
+           <nav id="social">
+                <a href="#" target="_blank">
+                    <img src="imgs/instagram.png" alt="Instagram">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="imgs/facebook.png" alt="Facebook">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="imgs/twitter.png" alt="Twitter">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="imgs/whatsapp.png" alt="Whatsapp">
+                </a>
+           </nav>
+           <nav id="enlaces-footer">
+                <ul>
+                    <li class="destacado">Acerca</li>
+                    <li>Historia</li>
+                    <li>Team</li>
+                    <li>Compromiso</li>
+                    <li>Términos</li>
+                </ul>
+                <ul>
+                    <li class="destacado">Servicios</li>
+                    <li>Promos</li>
+                    <li>Contratar</li>
+                    <li>Métodos de pago</li>
+                </ul>
+                <ul>
+                    <li class="destacado">Otros</li>
+                    <li>Contáctenos</li>
+                    <li>Ayuda</li>
+                    <li>Privacidad</li>
+                </ul>
+           </nav>
+        </section>
     </footer>
 
 </body>
