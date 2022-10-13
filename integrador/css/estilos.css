@@ -165,10 +165,23 @@ main{
     {
         width: 100%;
         padding: 8px;
+        margin: 8px 0px 16px 0px;
         border: 1px solid #CECECE;
         border-radius: 6px;
+        font-family: Raleway, sans-serif;
     }
-    
+    #contacto form textarea{
+        height: 80px;
+        resize: none;
+    }
+    #contacto form button{
+        background-color: #F7BB74;
+        border: 1px solid #FA9E30;
+        border-radius: 6px;
+        padding: 8px;
+        width: 240px;
+        font-family: Raleway, sans-serif;
+    }
 
 
 /* footer */
